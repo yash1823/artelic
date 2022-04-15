@@ -14,4 +14,11 @@ Comprehensive Front End with Solid Backend.
 
 Tech used : HTML5,CSS,JavaScript,Java.
 
+Database used : MySql
+
+I've used 2 tables for this project:
+user and image.
+
+The table's composition will be disclosed in near future.
+
 .zip is provided for public use :)
