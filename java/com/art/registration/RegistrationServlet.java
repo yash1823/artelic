@@ -32,7 +32,7 @@ public class RegistrationServlet extends HttpServlet {
 	
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/youtube?useSSL=false","root","Yash@007");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/youtube?useSSL=false","root","yourpassword");
 			PreparedStatement pst =con.prepareStatement("insert into youtube.users(uname,upwd,uemail,umobile) values(?,?,?,?)");
 			pst.setString(1, uname);
 			pst.setString(2, upwd);
