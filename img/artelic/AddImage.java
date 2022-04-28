@@ -71,7 +71,7 @@ public class AddImage extends HttpServlet {
 		Connection connection = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/youtube","root","Yash@007");
+			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/youtube","root","yourpassword");
 			PreparedStatement stmt;
 			//Creating Query
 			String query ="insert into image(imageFileName) values(?)";
